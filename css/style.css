@@ -24,6 +24,7 @@ img {
 a,
 a:hover {
   text-decoration: none;
+  display: inline-block;
 }
 .pera {
   color: #727272;
@@ -100,7 +101,7 @@ header {
 /* banner css start */
 .banner_content {
   text-align: center;
-  max-width: 60%;
+ width: 60%;
   margin: 100px auto 0px;
 }
 .banner_content h1 {
@@ -133,6 +134,9 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+}
+.single-team-img img {
+  width: 100%;
 }
 .teams-content {
   width: 37%;
